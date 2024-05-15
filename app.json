@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "flexify",
+    "name": "Flexify",
     "slug": "flexify",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "flexify",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",
