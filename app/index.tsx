@@ -1,15 +1,15 @@
+import { Link } from "expo-router";
+import { StatusBar } from "expo-status-bar";
 import { Text, View } from "react-native";
 
 export default function Index() {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Edit app/index.tsx to edit this text.</Text>
+    <View className="flex-1 items-center justify-center bg-white">
+      <Text>Index with Status Bar</Text>
+      <StatusBar style="auto" />
+      <Link href="/profile" style={{ color: "blue" }}>
+        Go to profile
+      </Link>
     </View>
   );
 }
